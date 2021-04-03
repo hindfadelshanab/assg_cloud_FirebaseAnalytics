@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView app:cardElevation="20dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="10sp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+
+       <ImageView
+           android:id="@+id/image_prodImage"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:adjustViewBounds="true"
+           android:scaleType="centerCrop"
+
+           android:src="@drawable/phone" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:id="@+id/text_name"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="12dp"
+               android:padding="8dp"
+               android:text="Pizaa "
+               android:textColor="@color/black"
+
+               android:textSize="25sp" />
+
+           <TextView
+               android:id="@+id/text_des"
+               android:layout_width="match_parent"
+
+               android:layout_height="wrap_content"
+               android:layout_marginStart="12dp"
+               android:lines="3"
+               android:padding="8dp"
+
+               android:text="jdhddddddddddddddddddddlaskdddddddddddddddddddddkkkkddjdnbnn" />
+
+
+           <TextView
+               android:id="@+id/text_price"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="12dp"
+               android:padding="8dp"
+               android:paddingEnd="12dp"
+               android:text="320$"
+               android:textAlignment="textEnd"
+               android:textColor="@color/black"
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

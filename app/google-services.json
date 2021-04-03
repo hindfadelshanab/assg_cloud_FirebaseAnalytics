@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "103203043194",
+    "firebase_url": "https://piixel.firebaseio.com",
+    "project_id": "piixel",
+    "storage_bucket": "piixel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103203043194:android:5c83a27a61cec176b388c3",
+        "android_client_info": {
+          "package_name": "com.example.assigmemntcloud2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103203043194-mf7m34u4np5aibnme78pg3m84rslemjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyGgrdMgJrfgfvGNPC9axbQDLiPHIuSzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103203043194-mf7m34u4np5aibnme78pg3m84rslemjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103203043194:android:6995e3090a75416eb388c3",
+        "android_client_info": {
+          "package_name": "com.example.piixel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103203043194-v81ckc4qv2n1pkgeibk9k1t2ndfft61t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.piixel",
+            "certificate_hash": "c0dc60a0cb1e98f0a54a8910cdd5178b50f8f907"
+          }
+        },
+        {
+          "client_id": "103203043194-mf7m34u4np5aibnme78pg3m84rslemjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyGgrdMgJrfgfvGNPC9axbQDLiPHIuSzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103203043194-mf7m34u4np5aibnme78pg3m84rslemjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
